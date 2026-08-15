@@ -1,0 +1,14 @@
+interface:
+  display_name: Thai Tech Docs Translator
+  short_description: แปล Markdown/MDX เทคโนโลยีเป็นไทยอย่างแม่นยำ
+  default_prompt: ใช้ $translate-tech-docs-th แปลเอกสาร Markdown/MDX นี้เป็นภาษาไทย
+    พร้อมแยกคำอธิบายศัพท์ไว้ต่างหาก
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
